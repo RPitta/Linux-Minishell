@@ -19,7 +19,7 @@ In addition  to  normal  command  lines  (e.g., those  running existing Linux to
 
 - `quit`: The shell stops accepting new commands when it sees the quit command on a line or reaches the end of the batch file. The shell should then exit after all running processes have terminated. 
 
-- `barrier`:  In the interactive mode, when the shel sees the barrier command, it stops accepting new commands until all running processes have terminated. It does not show the prompt either during the waiting. In the batch mode, when the shell sees the barrier command, it stops reading new commands until all running processes have been terminated. Command barrier cannot be executed in background. The `&` sign in command `barrier&` is ignored. 
+- `barrier`:  In the interactive mode, when the shell sees the barrier command, it stops accepting new commands until all running processes have terminated. It does not show the prompt either during the waiting. In the batch mode, when the shell sees the barrier command, it stops reading new commands until all running processes have been terminated. This command cannot be executed in the background. The `&` in `barrier&` is ignored. 
 
 ***
 
