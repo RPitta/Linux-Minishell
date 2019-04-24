@@ -25,3 +25,5 @@ In addition  to  normal  command  lines  (e.g., those  running existing Linux to
 
 ### Usage
 Enter `main` to read in from standard input or `main <file>` to read from a file.
+
+Included is a batch file to test the batch mode functionality. It analyzes Wikipedia pages to find out the most frequently used words on those pages. The execution of the batch file generates a list of distinct words used in the web pages and the number of occurrences of each word on these web pages sorted by the number of occurrences in ascending order.
